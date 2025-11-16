@@ -467,7 +467,7 @@ export default function AngillLaunchPage() {
         </section>
 
         {/* Who We Are - expanded two-column full-width grid */}
-        <section className="w-full px-6 lg:px-12 py-12 bg-white">
+        <section className="w-full px-6 lg:px-12 py-12 bg-transparent">
           <div className="max-w-[2000px] mx-auto">
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-8">Who we are</h3>
 
@@ -527,7 +527,7 @@ export default function AngillLaunchPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="w-full px-6 lg:px-12 py-12 bg-gray-50">
+        <section className="w-full px-6 lg:px-12 py-12 bg-transparent">
           <div className="max-w-[2000px] mx-auto">
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-8">Frequently Asked Questions</h3>
 
