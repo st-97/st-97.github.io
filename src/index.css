@@ -1,0 +1,27 @@
+@font-face {
+	font-family: Inter;
+	src: url('../src/assets/fonts/Inter-Regular.ttf');
+}
+@font-face {
+	font-family: Poppins;
+	src: url('../src/assets//fonts//Poppins-Regular.ttf');
+}
+@import 'tailwindcss';
+
+@theme {
+	--font-inter: Inter, 'sans-serif';
+	--font-poppins: Poppins, 'sans-serif';
+}
+
+/* Global cursor pointer for interactive elements */
+button,
+[role='button'],
+.clickable {
+	cursor: pointer !important;
+}
+
+/* Ensure disabled buttons show not-allowed cursor */
+button:disabled,
+[role='button']:disabled {
+	cursor: not-allowed !important;
+}
